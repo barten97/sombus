@@ -1,52 +1,531 @@
-@import url(https://fonts.googleapis.com/css?family=Barlow:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&display=swap);
-
-
-
-
-
+/* cyrillic */
+@font-face {
+  font-family: 'Jost';
+  font-style: italic;
+  font-weight: 100;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/jost/v6/92zUtBhPNqw73oHt5D4hXRAy7lRq.woff2) format('woff2');
+  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Jost';
+  font-style: italic;
+  font-weight: 100;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/jost/v6/92zUtBhPNqw73oHt7j4hXRAy7lRq.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Jost';
+  font-style: italic;
+  font-weight: 100;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/jost/v6/92zUtBhPNqw73oHt4D4hXRAy7g.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'Jost';
+  font-style: italic;
+  font-weight: 200;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/jost/v6/92zUtBhPNqw73oHt5D4hXRAy7lRq.woff2) format('woff2');
+  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Jost';
+  font-style: italic;
+  font-weight: 200;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/jost/v6/92zUtBhPNqw73oHt7j4hXRAy7lRq.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Jost';
+  font-style: italic;
+  font-weight: 200;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/jost/v6/92zUtBhPNqw73oHt4D4hXRAy7g.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'Jost';
+  font-style: italic;
+  font-weight: 300;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/jost/v6/92zUtBhPNqw73oHt5D4hXRAy7lRq.woff2) format('woff2');
+  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Jost';
+  font-style: italic;
+  font-weight: 300;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/jost/v6/92zUtBhPNqw73oHt7j4hXRAy7lRq.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Jost';
+  font-style: italic;
+  font-weight: 300;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/jost/v6/92zUtBhPNqw73oHt4D4hXRAy7g.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'Jost';
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/jost/v6/92zUtBhPNqw73oHt5D4hXRAy7lRq.woff2) format('woff2');
+  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Jost';
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/jost/v6/92zUtBhPNqw73oHt7j4hXRAy7lRq.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Jost';
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/jost/v6/92zUtBhPNqw73oHt4D4hXRAy7g.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'Jost';
+  font-style: italic;
+  font-weight: 500;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/jost/v6/92zUtBhPNqw73oHt5D4hXRAy7lRq.woff2) format('woff2');
+  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Jost';
+  font-style: italic;
+  font-weight: 500;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/jost/v6/92zUtBhPNqw73oHt7j4hXRAy7lRq.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Jost';
+  font-style: italic;
+  font-weight: 500;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/jost/v6/92zUtBhPNqw73oHt4D4hXRAy7g.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'Jost';
+  font-style: italic;
+  font-weight: 600;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/jost/v6/92zUtBhPNqw73oHt5D4hXRAy7lRq.woff2) format('woff2');
+  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Jost';
+  font-style: italic;
+  font-weight: 600;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/jost/v6/92zUtBhPNqw73oHt7j4hXRAy7lRq.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Jost';
+  font-style: italic;
+  font-weight: 600;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/jost/v6/92zUtBhPNqw73oHt4D4hXRAy7g.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'Jost';
+  font-style: italic;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/jost/v6/92zUtBhPNqw73oHt5D4hXRAy7lRq.woff2) format('woff2');
+  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Jost';
+  font-style: italic;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/jost/v6/92zUtBhPNqw73oHt7j4hXRAy7lRq.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Jost';
+  font-style: italic;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/jost/v6/92zUtBhPNqw73oHt4D4hXRAy7g.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'Jost';
+  font-style: italic;
+  font-weight: 800;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/jost/v6/92zUtBhPNqw73oHt5D4hXRAy7lRq.woff2) format('woff2');
+  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Jost';
+  font-style: italic;
+  font-weight: 800;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/jost/v6/92zUtBhPNqw73oHt7j4hXRAy7lRq.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Jost';
+  font-style: italic;
+  font-weight: 800;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/jost/v6/92zUtBhPNqw73oHt4D4hXRAy7g.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'Jost';
+  font-style: italic;
+  font-weight: 900;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/jost/v6/92zUtBhPNqw73oHt5D4hXRAy7lRq.woff2) format('woff2');
+  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Jost';
+  font-style: italic;
+  font-weight: 900;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/jost/v6/92zUtBhPNqw73oHt7j4hXRAy7lRq.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Jost';
+  font-style: italic;
+  font-weight: 900;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/jost/v6/92zUtBhPNqw73oHt4D4hXRAy7g.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'Jost';
+  font-style: normal;
+  font-weight: 100;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/jost/v6/92zatBhPNqw73oDd4jQmfxIC7w.woff2) format('woff2');
+  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Jost';
+  font-style: normal;
+  font-weight: 100;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/jost/v6/92zatBhPNqw73ord4jQmfxIC7w.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Jost';
+  font-style: normal;
+  font-weight: 100;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/jost/v6/92zatBhPNqw73oTd4jQmfxI.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'Jost';
+  font-style: normal;
+  font-weight: 200;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/jost/v6/92zatBhPNqw73oDd4jQmfxIC7w.woff2) format('woff2');
+  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Jost';
+  font-style: normal;
+  font-weight: 200;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/jost/v6/92zatBhPNqw73ord4jQmfxIC7w.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Jost';
+  font-style: normal;
+  font-weight: 200;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/jost/v6/92zatBhPNqw73oTd4jQmfxI.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'Jost';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/jost/v6/92zatBhPNqw73oDd4jQmfxIC7w.woff2) format('woff2');
+  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Jost';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/jost/v6/92zatBhPNqw73ord4jQmfxIC7w.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Jost';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/jost/v6/92zatBhPNqw73oTd4jQmfxI.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'Jost';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/jost/v6/92zatBhPNqw73oDd4jQmfxIC7w.woff2) format('woff2');
+  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Jost';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/jost/v6/92zatBhPNqw73ord4jQmfxIC7w.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Jost';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/jost/v6/92zatBhPNqw73oTd4jQmfxI.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'Jost';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/jost/v6/92zatBhPNqw73oDd4jQmfxIC7w.woff2) format('woff2');
+  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Jost';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/jost/v6/92zatBhPNqw73ord4jQmfxIC7w.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Jost';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/jost/v6/92zatBhPNqw73oTd4jQmfxI.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'Jost';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/jost/v6/92zatBhPNqw73oDd4jQmfxIC7w.woff2) format('woff2');
+  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Jost';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/jost/v6/92zatBhPNqw73ord4jQmfxIC7w.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Jost';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/jost/v6/92zatBhPNqw73oTd4jQmfxI.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'Jost';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/jost/v6/92zatBhPNqw73oDd4jQmfxIC7w.woff2) format('woff2');
+  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Jost';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/jost/v6/92zatBhPNqw73ord4jQmfxIC7w.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Jost';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/jost/v6/92zatBhPNqw73oTd4jQmfxI.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'Jost';
+  font-style: normal;
+  font-weight: 800;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/jost/v6/92zatBhPNqw73oDd4jQmfxIC7w.woff2) format('woff2');
+  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Jost';
+  font-style: normal;
+  font-weight: 800;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/jost/v6/92zatBhPNqw73ord4jQmfxIC7w.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Jost';
+  font-style: normal;
+  font-weight: 800;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/jost/v6/92zatBhPNqw73oTd4jQmfxI.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'Jost';
+  font-style: normal;
+  font-weight: 900;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/jost/v6/92zatBhPNqw73oDd4jQmfxIC7w.woff2) format('woff2');
+  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Jost';
+  font-style: normal;
+  font-weight: 900;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/jost/v6/92zatBhPNqw73ord4jQmfxIC7w.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Jost';
+  font-style: normal;
+  font-weight: 900;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/jost/v6/92zatBhPNqw73oTd4jQmfxI.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
 body {
-  font-family: Barlow;
+  font-family: Jost;
 }
 .display-1 {
-  font-family: 'Barlow', sans-serif;
-  font-size: 5.4rem;
-  line-height: 1.1;
+  font-family: 'Jost', sans-serif;
+  font-size: 5.5rem;
+  line-height: 1.2;
 }
 .display-1 > .mbr-iconfont {
-  font-size: 8.64rem;
+  font-size: 8.8rem;
 }
 .display-2 {
-  font-family: 'Barlow', sans-serif;
-  font-size: 3.1rem;
-  line-height: 1.3;
+  font-family: 'Jost', sans-serif;
+  font-size: 2.8rem;
+  line-height: 1.4;
 }
 .display-2 > .mbr-iconfont {
-  font-size: 4.96rem;
+  font-size: 4.48rem;
 }
 .display-4 {
-  font-family: 'Barlow', sans-serif;
-  font-weight: 400;
-  font-size: 1.2rem;
-  line-height: 1.7;
+  font-family: 'Jost', sans-serif;
+  font-size: 1rem;
+  line-height: 1.3;
 }
 .display-4 > .mbr-iconfont {
-  font-size: 1.2rem;
+  font-size: 1.6rem;
 }
 .display-5 {
-  font-family: 'Barlow', sans-serif;
-  font-size: 2.3rem;
+  font-family: 'Jost', sans-serif;
+  font-size: 1.6rem;
   line-height: 1.4;
 }
 .display-5 > .mbr-iconfont {
-  font-size: 3.68rem;
+  font-size: 2.56rem;
 }
 .display-7 {
-  font-family: 'Barlow', sans-serif;
-  font-size: 1.3rem;
-  line-height: 1.5;
+  font-family: 'Jost', sans-serif;
+  font-size: 1.2rem;
+  line-height: 1.4;
 }
 .display-7 > .mbr-iconfont {
-  font-size: 2.08rem;
+  font-size: 1.92rem;
 }
 /* ---- Fluid typography for mobile devices ---- */
 /* 1.4 - font scale ratio ( bootstrap == 1.42857 ) */
@@ -55,62 +534,67 @@ body {
 /* 0.65 - min scale variable, may vary */
 @media (max-width: 768px) {
   .display-1 {
-    font-size: 4.32rem;
-    font-size: calc( 2.54rem + (5.4 - 2.54) * ((100vw - 20rem) / (48 - 20)));
-    line-height: calc( 1.4 * (2.54rem + (5.4 - 2.54) * ((100vw - 20rem) / (48 - 20))));
+    font-size: 3.85rem;
+    font-size: calc( 2.5749999999999997rem + (5.5 - 2.5749999999999997) * ((100vw - 20rem) / (48 - 20)));
+    line-height: calc( 1.1 * (2.5749999999999997rem + (5.5 - 2.5749999999999997) * ((100vw - 20rem) / (48 - 20))));
   }
   .display-2 {
-    font-size: 2.48rem;
-    font-size: calc( 1.7349999999999999rem + (3.1 - 1.7349999999999999) * ((100vw - 20rem) / (48 - 20)));
-    line-height: calc( 1.4 * (1.7349999999999999rem + (3.1 - 1.7349999999999999) * ((100vw - 20rem) / (48 - 20))));
+    font-size: 2.24rem;
+    font-size: calc( 1.63rem + (2.8 - 1.63) * ((100vw - 20rem) / (48 - 20)));
+    line-height: calc( 1.3 * (1.63rem + (2.8 - 1.63) * ((100vw - 20rem) / (48 - 20))));
   }
   .display-4 {
+    font-size: 0.9rem !important;
+    font-size: calc( 1rem + (1 - 1) * ((100vw - 20rem) / (48 - 20)));
+    line-height: calc( 1.4 * (1rem + (1 - 1) * ((100vw - 20rem) / (48 - 20))));
+  }
+  .display-5 {
+    font-size: 1.28rem;
+    font-size: calc( 1.21rem + (1.6 - 1.21) * ((100vw - 20rem) / (48 - 20)));
+    line-height: calc( 1.4 * (1.21rem + (1.6 - 1.21) * ((100vw - 20rem) / (48 - 20))));
+  }
+  .display-7 {
     font-size: 0.96rem;
     font-size: calc( 1.07rem + (1.2 - 1.07) * ((100vw - 20rem) / (48 - 20)));
     line-height: calc( 1.4 * (1.07rem + (1.2 - 1.07) * ((100vw - 20rem) / (48 - 20))));
-  }
-  .display-5 {
-    font-size: 1.84rem;
-    font-size: calc( 1.455rem + (2.3 - 1.455) * ((100vw - 20rem) / (48 - 20)));
-    line-height: calc( 1.4 * (1.455rem + (2.3 - 1.455) * ((100vw - 20rem) / (48 - 20))));
   }
 }
 /* Buttons */
 .btn {
   padding: 1rem 3rem;
-  border-radius: 3px;
+  border-radius: 0px;
 }
 .btn-sm {
-  padding: 0.6rem 1.5rem;
-  border-radius: 3px;
+  padding: 0.6rem 1.2rem;
+  border-radius: 0px;
 }
 .btn-md {
-  padding: 1rem 3rem;
-  border-radius: 3px;
+  padding: 1rem 2.6rem;
+  border-radius: 0px;
 }
 .btn-lg {
   padding: 1.2rem 3.2rem;
-  border-radius: 3px;
+  border-radius: 0px;
 }
 .bg-primary {
-  background-color: #5263b8 !important;
+  background-color: #0062a3 !important;
 }
 .bg-success {
-  background-color: #f1a631 !important;
+  background-color: #0081d7 !important;
 }
 .bg-info {
-  background-color: #fb7522 !important;
+  background-color: #cfd2d5 !important;
 }
 .bg-warning {
-  background-color: #4da92e !important;
+  background-color: #474c52 !important;
 }
 .bg-danger {
-  background-color: #ff4e4e !important;
+  background-color: #ffcc2d !important;
 }
 .btn-primary,
 .btn-primary:active {
-  background-color: #5263b8 !important;
-  border-color: #5263b8 !important;
+  background-color: #0062a3 !important;
+  border-color: #0062a3 !important;
   color: #ffffff !important;
 }
 .btn-primary:hover,
@@ -118,19 +602,30 @@ body {
 .btn-primary.focus,
 .btn-primary.active {
   color: #ffffff !important;
-  background-color: #374486 !important;
-  border-color: #374486 !important;
+  background-color: #003456 !important;
+  border-color: #003456 !important;
 }
 .btn-primary.disabled,
 .btn-primary:disabled {
   color: #ffffff !important;
-  background-color: #374486 !important;
-  border-color: #374486 !important;
+  background-color: #003456 !important;
+  border-color: #003456 !important;
+}
+.btn-primary:hover {
+  background-color: #0062a3 !important;
+  border-color: #0062a3 !important;
+}
+.btn-primary:hover,
+.btn-primary:focus {
+  background: linear-gradient(to left, #0062a3, #0062a3);
+  border-color: transparent!important;
+  background-size: 110%;
+  background-position: center;
 }
 .btn-secondary,
 .btn-secondary:active {
-  background-color: #7fa8d7 !important;
-  border-color: #7fa8d7 !important;
+  background-color: #0062a3 !important;
+  border-color: #0062a3 !important;
   color: #ffffff !important;
 }
 .btn-secondary:hover,
@@ -138,39 +633,61 @@ body {
 .btn-secondary.focus,
 .btn-secondary.active {
   color: #ffffff !important;
-  background-color: #4580c5 !important;
-  border-color: #4580c5 !important;
+  background-color: #003456 !important;
+  border-color: #003456 !important;
 }
 .btn-secondary.disabled,
 .btn-secondary:disabled {
   color: #ffffff !important;
-  background-color: #4580c5 !important;
-  border-color: #4580c5 !important;
+  background-color: #003456 !important;
+  border-color: #003456 !important;
+}
+.btn-secondary:hover {
+  background-color: #0062a3 !important;
+  border-color: #0062a3 !important;
+}
+.btn-secondary:hover,
+.btn-secondary:focus {
+  background: linear-gradient(to left, #0062a3, #0062a3);
+  border-color: transparent!important;
+  background-size: 110%;
+  background-position: center;
 }
 .btn-info,
 .btn-info:active {
-  background-color: #fb7522 !important;
-  border-color: #fb7522 !important;
-  color: #ffffff !important;
+  background-color: #cfd2d5 !important;
+  border-color: #cfd2d5 !important;
+  color: #4d5258 !important;
 }
 .btn-info:hover,
 .btn-info:focus,
 .btn-info.focus,
 .btn-info.active {
-  color: #ffffff !important;
-  background-color: #cd5104 !important;
-  border-color: #cd5104 !important;
+  color: #4d5258 !important;
+  background-color: #a6acb1 !important;
+  border-color: #a6acb1 !important;
 }
 .btn-info.disabled,
 .btn-info:disabled {
-  color: #ffffff !important;
-  background-color: #cd5104 !important;
-  border-color: #cd5104 !important;
+  color: #4d5258 !important;
+  background-color: #a6acb1 !important;
+  border-color: #a6acb1 !important;
+}
+.btn-info:hover {
+  background-color: #0062a3 !important;
+  border-color: #0062a3 !important;
+}
+.btn-info:hover,
+.btn-info:focus {
+  background: linear-gradient(to left, #0062a3, #cfd2d5);
+  border-color: transparent!important;
+  background-size: 110%;
+  background-position: center;
 }
 .btn-success,
 .btn-success:active {
-  background-color: #f1a631 !important;
-  border-color: #f1a631 !important;
+  background-color: #0081d7 !important;
+  border-color: #0081d7 !important;
   color: #ffffff !important;
 }
 .btn-success:hover,
@@ -178,19 +695,30 @@ body {
 .btn-success.focus,
 .btn-success.active {
   color: #ffffff !important;
-  background-color: #c87f0e !important;
-  border-color: #c87f0e !important;
+  background-color: #00538b !important;
+  border-color: #00538b !important;
 }
 .btn-success.disabled,
 .btn-success:disabled {
   color: #ffffff !important;
-  background-color: #c87f0e !important;
-  border-color: #c87f0e !important;
+  background-color: #00538b !important;
+  border-color: #00538b !important;
+}
+.btn-success:hover {
+  background-color: #0062a3 !important;
+  border-color: #0062a3 !important;
+}
+.btn-success:hover,
+.btn-success:focus {
+  background: linear-gradient(to left, #0062a3, #0081d7);
+  border-color: transparent!important;
+  background-size: 110%;
+  background-position: center;
 }
 .btn-warning,
 .btn-warning:active {
-  background-color: #4da92e !important;
-  border-color: #4da92e !important;
+  background-color: #474c52 !important;
+  border-color: #474c52 !important;
   color: #ffffff !important;
 }
 .btn-warning:hover,
@@ -198,62 +726,95 @@ body {
 .btn-warning.focus,
 .btn-warning.active {
   color: #ffffff !important;
-  background-color: #326d1e !important;
-  border-color: #326d1e !important;
+  background-color: #242629 !important;
+  border-color: #242629 !important;
 }
 .btn-warning.disabled,
 .btn-warning:disabled {
   color: #ffffff !important;
-  background-color: #326d1e !important;
-  border-color: #326d1e !important;
+  background-color: #242629 !important;
+  border-color: #242629 !important;
+}
+.btn-warning:hover {
+  background-color: #0062a3 !important;
+  border-color: #0062a3 !important;
+}
+.btn-warning:hover,
+.btn-warning:focus {
+  background: linear-gradient(to left, #0062a3, #474c52);
+  border-color: transparent!important;
+  background-size: 110%;
+  background-position: center;
 }
 .btn-danger,
 .btn-danger:active {
-  background-color: #ff4e4e !important;
-  border-color: #ff4e4e !important;
-  color: #ffffff !important;
+  background-color: #ffcc2d !important;
+  border-color: #ffcc2d !important;
+  color: #2d2200 !important;
 }
 .btn-danger:hover,
 .btn-danger:focus,
 .btn-danger.focus,
 .btn-danger.active {
-  color: #ffffff !important;
-  background-color: #ff0101 !important;
-  border-color: #ff0101 !important;
+  color: #2d2200 !important;
+  background-color: #e0a900 !important;
+  border-color: #e0a900 !important;
 }
 .btn-danger.disabled,
 .btn-danger:disabled {
-  color: #ffffff !important;
-  background-color: #ff0101 !important;
-  border-color: #ff0101 !important;
+  color: #2d2200 !important;
+  background-color: #e0a900 !important;
+  border-color: #e0a900 !important;
 }
-.btn-white {
-  color: #333333 !important;
+.btn-danger:hover {
+  background-color: #0062a3 !important;
+  border-color: #0062a3 !important;
+}
+.btn-danger:hover,
+.btn-danger:focus {
+  background: linear-gradient(to left, #0062a3, #ffcc2d);
+  border-color: transparent!important;
+  background-size: 110%;
+  background-position: center;
 }
 .btn-white,
 .btn-white:active {
-  background-color: #ffffff !important;
-  border-color: #ffffff !important;
-  color: #808080 !important;
+  background-color: #f3f3f3 !important;
+  border-color: #f3f3f3 !important;
+  color: #737373 !important;
 }
 .btn-white:hover,
 .btn-white:focus,
 .btn-white.focus,
 .btn-white.active {
-  color: #808080 !important;
-  background-color: #d9d9d9 !important;
-  border-color: #d9d9d9 !important;
+  color: #737373 !important;
+  background-color: #cdcdcd !important;
+  border-color: #cdcdcd !important;
 }
 .btn-white.disabled,
 .btn-white:disabled {
-  color: #808080 !important;
-  background-color: #d9d9d9 !important;
-  border-color: #d9d9d9 !important;
+  color: #737373 !important;
+  background-color: #cdcdcd !important;
+  border-color: #cdcdcd !important;
+}
+.btn-white:hover {
+  background-color: #0062a3 !important;
+  border-color: #0062a3 !important;
+}
+.btn-white:hover,
+.btn-white:focus {
+  background: linear-gradient(to left, #0062a3, #f3f3f3);
+  border-color: transparent!important;
+  background-size: 110%;
+  background-position: center;
+}
+.btn-white:hover {
+  color: white!important;
 }
 .btn-black,
 .btn-black:active {
-  background-color: #333333 !important;
-  border-color: #333333 !important;
+  background-color: #000000 !important;
+  border-color: #000000 !important;
   color: #ffffff !important;
 }
 .btn-black:hover,
@@ -261,154 +822,221 @@ body {
 .btn-black.focus,
 .btn-black.active {
   color: #ffffff !important;
-  background-color: #0d0d0d !important;
-  border-color: #0d0d0d !important;
+  background-color: #000000 !important;
+  border-color: #000000 !important;
 }
 .btn-black.disabled,
 .btn-black:disabled {
   color: #ffffff !important;
-  background-color: #0d0d0d !important;
-  border-color: #0d0d0d !important;
+  background-color: #000000 !important;
+  border-color: #000000 !important;
+}
+.btn-black:hover {
+  background-color: #0062a3 !important;
+  border-color: #0062a3 !important;
+}
+.btn-black:hover,
+.btn-black:focus {
+  background: linear-gradient(to left, #0062a3, #000000);
+  border-color: transparent!important;
+  background-size: 110%;
+  background-position: center;
+}
+.btn-primary-outline {
+  color: white!important;
 }
 .btn-primary-outline,
 .btn-primary-outline:active {
   background: none;
-  border-color: #303b74;
-  color: #303b74;
+  border-color: #0062a3;
+  color: #0062a3;
 }
 .btn-primary-outline:hover,
 .btn-primary-outline:focus,
 .btn-primary-outline.focus,
 .btn-primary-outline.active {
-  color: #000000 !important;
-  background: transparent !important;
-  box-shadow: 0 20px 30px 0 rgba(0, 0, 0, 0.2) !important;
-  border-color: #5263b8;
+  color: #ffffff;
+  background-color: #0062a3;
+  border-color: #0062a3;
 }
 .btn-primary-outline.disabled,
 .btn-primary-outline:disabled {
   color: #ffffff !important;
-  background-color: #5263b8 !important;
-  border-color: #5263b8 !important;
+  background-color: #0062a3 !important;
+  border-color: #0062a3 !important;
+}
+.btn-primary-outline:hover,
+.btn-primary-outline:focus {
+  background: linear-gradient(to left, #0062a3, #0062a3);
+  border-color: transparent!important;
+  background-size: 110%;
+  background-position: center;
+}
+.btn-secondary-outline {
+  color: white!important;
 }
 .btn-secondary-outline,
 .btn-secondary-outline:active {
   background: none;
-  border-color: #3974b7;
-  color: #3974b7;
+  border-color: #0062a3;
+  color: #0062a3;
 }
 .btn-secondary-outline:hover,
 .btn-secondary-outline:focus,
 .btn-secondary-outline.focus,
 .btn-secondary-outline.active {
-  color: #000000 !important;
-  background: transparent !important;
-  box-shadow: 0 20px 30px 0 rgba(0, 0, 0, 0.2) !important;
-  border-color: #7fa8d7;
+  color: #ffffff;
+  background-color: #0062a3;
+  border-color: #0062a3;
 }
 .btn-secondary-outline.disabled,
 .btn-secondary-outline:disabled {
   color: #ffffff !important;
-  background-color: #7fa8d7 !important;
-  border-color: #7fa8d7 !important;
+  background-color: #0062a3 !important;
+  border-color: #0062a3 !important;
+}
+.btn-secondary-outline:hover,
+.btn-secondary-outline:focus {
+  background: linear-gradient(to left, #0062a3, #0062a3);
+  border-color: transparent!important;
+  background-size: 110%;
+  background-position: center;
+}
+.btn-info-outline {
+  color: white!important;
 }
 .btn-info-outline,
 .btn-info-outline:active {
   background: none;
-  border-color: #b44703;
-  color: #b44703;
+  border-color: #cfd2d5;
+  color: #cfd2d5;
 }
 .btn-info-outline:hover,
 .btn-info-outline:focus,
 .btn-info-outline.focus,
 .btn-info-outline.active {
-  color: #000000 !important;
-  background: transparent !important;
-  box-shadow: 0 20px 30px 0 rgba(0, 0, 0, 0.2) !important;
-  border-color: #fb7522;
+  color: #4d5258;
+  background-color: #cfd2d5;
+  border-color: #cfd2d5;
 }
 .btn-info-outline.disabled,
 .btn-info-outline:disabled {
-  color: #ffffff !important;
-  background-color: #fb7522 !important;
-  border-color: #fb7522 !important;
+  color: #4d5258 !important;
+  background-color: #cfd2d5 !important;
+  border-color: #cfd2d5 !important;
+}
+.btn-info-outline:hover,
+.btn-info-outline:focus {
+  background: linear-gradient(to left, #0062a3, #cfd2d5);
+  border-color: transparent!important;
+  background-size: 110%;
+  background-position: center;
+}
+.btn-success-outline {
+  color: white!important;
 }
 .btn-success-outline,
 .btn-success-outline:active {
   background: none;
-  border-color: #b0700c;
-  color: #b0700c;
+  border-color: #0081d7;
+  color: #0081d7;
 }
 .btn-success-outline:hover,
 .btn-success-outline:focus,
 .btn-success-outline.focus,
 .btn-success-outline.active {
-  color: #000000 !important;
-  background: transparent !important;
-  box-shadow: 0 20px 30px 0 rgba(0, 0, 0, 0.2) !important;
-  border-color: #f1a631;
+  color: #ffffff;
+  background-color: #0081d7;
+  border-color: #0081d7;
 }
 .btn-success-outline.disabled,
 .btn-success-outline:disabled {
   color: #ffffff !important;
-  background-color: #f1a631 !important;
-  border-color: #f1a631 !important;
+  background-color: #0081d7 !important;
+  border-color: #0081d7 !important;
+}
+.btn-success-outline:hover,
+.btn-success-outline:focus {
+  background: linear-gradient(to left, #0062a3, #0081d7);
+  border-color: transparent!important;
+  background-size: 110%;
+  background-position: center;
+}
+.btn-warning-outline {
+  color: white!important;
 }
 .btn-warning-outline,
 .btn-warning-outline:active {
   background: none;
-  border-color: #285918;
-  color: #285918;
+  border-color: #474c52;
+  color: #474c52;
 }
 .btn-warning-outline:hover,
 .btn-warning-outline:focus,
 .btn-warning-outline.focus,
 .btn-warning-outline.active {
-  color: #000000 !important;
-  background: transparent !important;
-  box-shadow: 0 20px 30px 0 rgba(0, 0, 0, 0.2) !important;
-  border-color: #4da92e;
+  color: #ffffff;
+  background-color: #474c52;
+  border-color: #474c52;
 }
 .btn-warning-outline.disabled,
 .btn-warning-outline:disabled {
   color: #ffffff !important;
-  background-color: #4da92e !important;
-  border-color: #4da92e !important;
+  background-color: #474c52 !important;
+  border-color: #474c52 !important;
+}
+.btn-warning-outline:hover,
+.btn-warning-outline:focus {
+  background: linear-gradient(to left, #0062a3, #474c52);
+  border-color: transparent!important;
+  background-size: 110%;
+  background-position: center;
+}
+.btn-danger-outline {
+  color: white!important;
 }
 .btn-danger-outline,
 .btn-danger-outline:active {
   background: none;
-  border-color: #e70000;
-  color: #e70000;
+  border-color: #ffcc2d;
+  color: #ffcc2d;
 }
 .btn-danger-outline:hover,
 .btn-danger-outline:focus,
 .btn-danger-outline.focus,
 .btn-danger-outline.active {
-  color: #000000 !important;
-  background: transparent !important;
-  box-shadow: 0 20px 30px 0 rgba(0, 0, 0, 0.2) !important;
-  border-color: #ff4e4e;
+  color: #2d2200;
+  background-color: #ffcc2d;
+  border-color: #ffcc2d;
 }
 .btn-danger-outline.disabled,
 .btn-danger-outline:disabled {
-  color: #ffffff !important;
-  background-color: #ff4e4e !important;
-  border-color: #ff4e4e !important;
+  color: #2d2200 !important;
+  background-color: #ffcc2d !important;
+  border-color: #ffcc2d !important;
+}
+.btn-danger-outline:hover,
+.btn-danger-outline:focus {
+  background: linear-gradient(to left, #0062a3, #ffcc2d);
+  border-color: transparent!important;
+  background-size: 110%;
+  background-position: center;
+}
+.btn-black-outline {
+  color: white!important;
 }
 .btn-black-outline,
 .btn-black-outline:active {
   background: none;
-  border-color: #000000;
-  color: #000000;
+  border-color: #333333;
+  color: #333333;
 }
 .btn-black-outline:hover,
 .btn-black-outline:focus,
 .btn-black-outline.focus,
 .btn-black-outline.active {
-  color: #000000 !important;
-  background: transparent !important;
-  box-shadow: 0 20px 30px 0 rgba(0, 0, 0, 0.2) !important;
+  color: #ffffff;
+  background-color: #333333;
   border-color: #333333;
 }
 .btn-black-outline.disabled,
@@ -417,37 +1045,60 @@ body {
   background-color: #333333 !important;
   border-color: #333333 !important;
 }
+.btn-black-outline:hover,
+.btn-black-outline:focus {
+  background: linear-gradient(to left, #0062a3, #333333);
+  border-color: transparent!important;
+  background-size: 110%;
+  background-position: center;
+}
+.btn-white-outline {
+  color: white!important;
+}
 .btn-white-outline,
-.btn-white-outline:active,
-.btn-white-outline.active {
+.btn-white-outline:active {
   background: none;
-  border-color: #ffffff;
-  color: #ffffff !important;
+  border-color: #f3f3f3;
+  color: #f3f3f3;
 }
 .btn-white-outline:hover,
 .btn-white-outline:focus,
-.btn-white-outline.focus {
-  color: #000000 !important;
-  background-color: #ffffff;
-  border-color: #ffffff;
+.btn-white-outline.focus,
+.btn-white-outline.active {
+  color: #737373;
+  background-color: #f3f3f3;
+  border-color: #f3f3f3;
+}
+.btn-white-outline.disabled,
+.btn-white-outline:disabled {
+  color: #737373 !important;
+  background-color: #f3f3f3 !important;
+  border-color: #f3f3f3 !important;
+}
+.btn-white-outline:hover,
+.btn-white-outline:focus {
+  background: linear-gradient(to left, #0062a3, #f3f3f3);
+  border-color: transparent!important;
+  background-size: 110%;
+  background-position: center;
 }
 .text-primary {
-  color: #5263b8 !important;
+  color: #0062a3 !important;
 }
 .text-secondary {
-  color: #7fa8d7 !important;
+  color: #0062a3 !important;
 }
 .text-success {
-  color: #f1a631 !important;
+  color: #0081d7 !important;
 }
 .text-info {
-  color: #fb7522 !important;
+  color: #cfd2d5 !important;
 }
 .text-warning {
-  color: #4da92e !important;
+  color: #474c52 !important;
 }
 .text-danger {
-  color: #ff4e4e !important;
+  color: #ffcc2d !important;
 }
 .text-white {
   color: #ffffff !important;
@@ -457,31 +1108,31 @@ body {
 }
 a.text-primary:hover,
 a.text-primary:focus {
-  color: #303b74 !important;
+  color: #0a9dff !important;
 }
 a.text-secondary:hover,
 a.text-secondary:focus {
-  color: #3974b7 !important;
+  color: #0a9dff !important;
 }
 a.text-success:hover,
 a.text-success:focus {
-  color: #b0700c !important;
+  color: #3eb2ff !important;
 }
 a.text-info:hover,
 a.text-info:focus {
-  color: #b44703 !important;
+  color: #ffffff !important;
 }
 a.text-warning:hover,
 a.text-warning:focus {
-  color: #285918 !important;
+  color: #767f89 !important;
 }
 a.text-danger:hover,
 a.text-danger:focus {
-  color: #e70000 !important;
+  color: #ffe593 !important;
 }
 a.text-white:hover,
 a.text-white:focus {
-  color: #b3b3b3 !important;
+  color: #ffffff !important;
 }
 a.text-black:hover,
 a.text-black:focus {
@@ -491,348 +1142,229 @@ a.text-black:focus {
   background-color: #70c770;
 }
 .alert-info {
-  background-color: #fb7522;
+  background-color: #cfd2d5;
 }
 .alert-warning {
-  background-color: #4da92e;
+  background-color: #474c52;
 }
 .alert-danger {
-  background-color: #ff4e4e;
-}
-.mbr-section-btn a.btn:not(.btn-form) {
-  border-radius: 100px;
-}
-.mbr-section-btn a.btn:not(.btn-form):hover,
-.mbr-section-btn a.btn:not(.btn-form):focus {
-  box-shadow: none;
-}
-.mbr-section-btn a.btn:not(.btn-form):hover,
-.mbr-section-btn a.btn:not(.btn-form):focus {
-  box-shadow: 0 10px 40px 0 rgba(0, 0, 0, 0.2) !important;
-  -webkit-box-shadow: 0 10px 40px 0 rgba(0, 0, 0, 0.2) !important;
-}
-.mbr-gallery-filter li a {
-  border-radius: 100px !important;
+  background-color: #ffcc2d;
 }
 .mbr-gallery-filter li.active .btn {
-  background-color: #5263b8;
-  border-color: #5263b8;
+  background-color: #0062a3;
+  border-color: #0062a3;
   color: #ffffff;
 }
 .mbr-gallery-filter li.active .btn:focus {
   box-shadow: none;
 }
-.nav-tabs .nav-link {
-  border-radius: 100px !important;
-}
 a,
 a:hover {
-  color: #5263b8;
+  color: #0062a3;
 }
 .mbr-plan-header.bg-primary .mbr-plan-subtitle,
 .mbr-plan-header.bg-primary .mbr-plan-price-desc {
-  color: #acb5dd;
+  color: #23a7ff;
 }
 .mbr-plan-header.bg-success .mbr-plan-subtitle,
 .mbr-plan-header.bg-success .mbr-plan-price-desc {
-  color: #fef9f0;
+  color: #a4dbff;
 }
 .mbr-plan-header.bg-info .mbr-plan-subtitle,
 .mbr-plan-header.bg-info .mbr-plan-price-desc {
-  color: #fff2ea;
+  color: #ffffff;
 }
 .mbr-plan-header.bg-warning .mbr-plan-subtitle,
 .mbr-plan-header.bg-warning .mbr-plan-price-desc {
-  color: #93db7b;
+  color: #bbbfc4;
 }
 .mbr-plan-header.bg-danger .mbr-plan-subtitle,
 .mbr-plan-header.bg-danger .mbr-plan-price-desc {
-  color: #ffffff;
+  color: #fffef9;
 }
 /* Scroll to top button*/
 .scrollToTop_wraper {
   display: none;
 }
-.form-control {
-  font-family: 'Barlow', sans-serif;
-  font-size: 1.3rem;
-  line-height: 1.5;
-}
-.form-control > .mbr-iconfont {
-  font-size: 2.08rem;
-}
 blockquote {
-  border-color: #5263b8;
+  border-color: #0062a3;
 }
 /* Forms */
 .mbr-form .btn {
   margin: .4rem 0;
 }
-.mbr-form .input-group-btn a.btn {
-  border-radius: 100px !important;
-}
-.mbr-form .input-group-btn a.btn:hover {
-  box-shadow: 0 10px 40px 0 rgba(0, 0, 0, 0.2);
-}
-.mbr-form .input-group-btn button[type="submit"] {
-  border-radius: 100px !important;
-  padding: 1rem 3rem;
-}
-.mbr-form .input-group-btn button[type="submit"]:hover {
-  box-shadow: 0 10px 40px 0 rgba(0, 0, 0, 0.2);
-}
 .jq-selectbox li:hover,
 .jq-selectbox li.selected {
-  background-color: #5263b8;
+  background-color: #0062a3;
   color: #ffffff;
 }
 .jq-selectbox .jq-selectbox__trigger-arrow,
 .jq-number__spin.minus:after,
 .jq-number__spin.plus:after {
-  -webkit-transition: 0.4s;
   transition: 0.4s;
-  border-top-color: currentColor;
-  border-bottom-color: currentColor;
+  border-top-color: gray !important;
+  border-bottom-color: gray !important;
 }
 .jq-selectbox:hover .jq-selectbox__trigger-arrow,
 .jq-number__spin.minus:hover:after,
 .jq-number__spin.plus:hover:after {
-  border-top-color: #5263b8;
-  border-bottom-color: #5263b8;
+  border-top-color: #0062a3;
+  border-bottom-color: #0062a3;
 }
 .xdsoft_datetimepicker .xdsoft_calendar td.xdsoft_default,
 .xdsoft_datetimepicker .xdsoft_calendar td.xdsoft_current,
 .xdsoft_datetimepicker .xdsoft_timepicker .xdsoft_time_box > div > div.xdsoft_current {
   color: #ffffff !important;
-  background-color: #5263b8 !important;
+  background-color: #0062a3 !important;
   box-shadow: none !important;
 }
 .xdsoft_datetimepicker .xdsoft_calendar td:hover,
 .xdsoft_datetimepicker .xdsoft_timepicker .xdsoft_time_box > div > div:hover {
-  color: #000000 !important;
-  background: #7fa8d7 !important;
+  color: #ffffff !important;
+  background: #0062a3 !important;
   box-shadow: none !important;
 }
-.sidebar-block .mbr-gallery-item .galleryItem .onsale {
-  top: 0px;
+.lazy-bg {
+  background-image: none !important;
 }
-.sidebar-block .mbr-gallery-item .galleryItem .sidebar_wraper {
-  bottom: -35px;
-  margin-left: 1rem;
-}
-.cid-sy9mRMIbtx {
-  padding-top: 10rem;
-  padding-bottom: 10rem;
-}
-.cid-sy9mRMIbtx .mbr-section-btn .btn-white-outline {
-  padding: 3px 0;
-  border: none !important;
-  background-color: transparent !important;
-}
-.cid-sy9mRMIbtx .head_wrap:hover .mbr-section-title a {
-  color: #7fa8d7 !important;
-}
-.cid-sy93X3b4gT {
-  overflow: hidden;
-  padding-top: 75px;
-  padding-bottom: 75px;
-  background-color: #191f2d;
-}
-.cid-sy93X3b4gT section {
-  padding-bottom: 0 !important;
-}
-.cid-sy93X3b4gT .container-fluid {
-  position: relative;
-  padding: 0 !important;
-}
-.cid-sy93X3b4gT h1 {
-  line-height: 1.4;
-}
-.cid-sy93X3b4gT .second {
-  display: none;
-}
-.cid-sy93X3b4gT .wrapper {
-  position: relative;
-}
-.cid-sy93X3b4gT .content {
-  padding-left: 6rem;
-  padding-right: 2rem;
-}
-.cid-sy93X3b4gT .img1 {
-  width: calc(215%);
-  -o-object-fit: cover;
-  object-fit: cover;
-  height: 800px;
-  margin-left: -37rem;
-  overflow: hidden;
-}
-.cid-sy93X3b4gT .icon1 {
-  position: absolute;
-  top: 2rem;
-  right: 0rem;
-}
-.cid-sy93X3b4gT .icon2 {
-  position: absolute;
-  top: 5rem;
-  right: 0rem;
-}
-.cid-sy93X3b4gT .img2 {
-  position: absolute;
-  bottom: -4.6rem;
-  right: 0;
-  width: 400px;
-  box-shadow: 2.5px 4.3px 62px 0 rgba(0, 0, 0, 0.22);
-}
-.cid-sy93X3b4gT .title {
-  position: absolute;
-  right: 0rem;
-  -webkit-transform: rotate(90deg);
-  transform: rotate(90deg);
-  -webkit-transform-origin: top right;
-  transform-origin: top right;
-  top: 26rem;
-  padding: 0;
-}
-.cid-sy93X3b4gT .title:before {
-  content: "";
-  position: absolute;
-  background: currentColor;
-  top: 50%;
-  left: -8.6rem;
-  width: 100px;
-  height: 2px;
-}
-@media (max-width: 1400px) {
-  .cid-sy93X3b4gT .img1 {
-    width: calc(185%);
-    margin-left: -16rem;
-  }
-  .cid-sy93X3b4gT .container-fluid {
-    padding-right: 2rem;
-    padding-left: 2rem;
-  }
-  .cid-sy93X3b4gT .content {
-    padding-left: 1rem;
-    padding-right: 1rem;
-  }
-}
-.cid-sy93X3b4gT .shape {
-  width: 223px;
-  height: 245px;
-  border: 4px solid #fb7522;
-  color: #ffffff;
+.lazy-placeholder:not(section),
+.lazy-none {
   display: block;
+  position: relative;
+  padding-bottom: 56.25%;
+  width: 100%;
+  height: auto;
+}
+iframe.lazy-placeholder,
+.lazy-placeholder:after {
+  content: '';
   position: absolute;
-  top: 25rem;
+  width: 200px;
+  height: 200px;
+  background: transparent no-repeat center;
+  background-size: contain;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  background-image: url("data:image/svg+xml;charset=UTF-8,%3csvg width='32' height='32' viewBox='0 0 64 64' xmlns='http://www.w3.org/2000/svg' stroke='%230062a3' %3e%3cg fill='none' fill-rule='evenodd'%3e%3cg transform='translate(16 16)' stroke-width='2'%3e%3ccircle stroke-opacity='.5' cx='16' cy='16' r='16'/%3e%3cpath d='M32 16c0-9.94-8.06-16-16-16'%3e%3canimateTransform attributeName='transform' type='rotate' from='0 16 16' to='360 16 16' dur='1s' repeatCount='indefinite'/%3e%3c/path%3e%3c/g%3e%3c/g%3e%3c/svg%3e");
+}
+section.lazy-placeholder:after {
+  opacity: 0.5;
+}
+body {
+  overflow-x: hidden;
+}
+a {
+  transition: color 0.6s;
+}
+.btn {
+  transition: none;
+}
+.cid-symnWbZblc {
+  background-image: url("../../../assets/images/mbr-1920x1279.jpg");
+  background-position: right;
+}
+.cid-symnWbZblc .wrapper {
+  position: relative;
+  border-top: 3px solid #0095ff;
+  border-right: 3px solid #0095ff;
+  border-left: 3px solid #0095ff;
+  padding: 2.5rem 2.5rem;
+}
+.cid-symnWbZblc .wrapper:before {
+  content: "";
+  background: #0095ff;
+  position: absolute;
+  bottom: 0;
+  width: calc(90% - 130px);
+  height: 3px;
+  right: 0;
+}
+.cid-symnWbZblc .wrapper:after {
+  content: "";
+  background: #0095ff;
+  position: absolute;
+  bottom: 0;
+  width: 10%;
+  height: 3px;
   left: 0;
 }
-.cid-sy93X3b4gT .shape p {
-  margin-left: 5rem;
-  width: 154%;
-  margin-top: 6rem;
-}
-@media (max-width: 992px) {
-  .cid-sy93X3b4gT .shape {
-    left: 55%;
-  }
-  .cid-sy93X3b4gT .left {
-    display: none;
-  }
-  .cid-sy93X3b4gT .second {
-    display: block;
-    position: absolute;
-    top: 36%;
-    left: 12%;
-  }
-  .cid-sy93X3b4gT a.second {
-    margin-top: 30%;
-  }
-  .cid-sy93X3b4gT .img1 {
-    width: 100%;
-    margin-left: 0;
-  }
-}
-@media (max-width: 805px) {
-  .cid-sy93X3b4gT .second {
-    top: 20%;
-  }
-  .cid-sy93X3b4gT a.second {
-    margin-top: 51%;
-  }
+.cid-symnWbZblc img {
+  position: absolute;
+  left: 10%;
+  bottom: -45px;
+  width: 130px;
 }
 @media (max-width: 767px) {
-  .cid-sy93X3b4gT .shape {
-    display: none;
-  }
-  .cid-sy93X3b4gT .second {
-    left: 0;
-  }
-  .cid-sy93X3b4gT a.second {
-    margin-top: 50%;
-    width: 100%;
-    text-align: center;
-  }
-  .cid-sy93X3b4gT a.second::after,
-  .cid-sy93X3b4gT a.second::before {
-    display: none;
+  .cid-symnWbZblc .wrapper {
+    padding: 1rem 1.5rem;
   }
 }
-@media (max-width: 500px) {
-  .cid-sy93X3b4gT a.second {
-    margin-top: 55% !important;
+.cid-symoMzD42U {
+  padding-top: 90px;
+  padding-bottom: 90px;
+  background-color: #111111;
+}
+.cid-symoMzD42U img {
+  width: 100%;
+  transition: all 0.6s ease-in-out;
+  height: 260px;
+  object-fit: cover;
+}
+.cid-symoMzD42U .card-wrapper {
+  background: #191919;
+  padding: 2rem;
+}
+@media (max-width: 767px) {
+  .cid-symoMzD42U .card-wrapper {
+    padding: 2rem 1rem;
   }
 }
-.cid-sy93X3b4gT a {
-  display: inline-block;
-  color: #fb7522;
-  line-height: 1;
-  text-decoration: none;
-  cursor: pointer;
+.cid-symoMzD42U .first:hover:before {
+  content: none;
+}
+.cid-symoMzD42U .first:before {
+  position: absolute;
+  top: -1rem;
+  z-index: -1;
+  left: 0rem;
+  width: 300px;
+  height: 300px;
+  background: linear-gradient(to left, #0062a3, #0062a3);
+  content: "";
+}
+.cid-symoMzD42U .last:hover:after {
+  content: none;
+}
+.cid-symoMzD42U .last:after {
+  position: absolute;
+  bottom: -1rem;
+  right: 0rem;
+  width: 300px;
+  z-index: -1;
+  height: 300px;
+  background: linear-gradient(to left, #0062a3, #0062a3);
+  content: "";
+}
+.cid-symoMzD42U .mbr-section-text {
+  color: #999999;
+}
+.cid-symoMzD42U .card {
+  z-index: 1;
   position: relative;
+  transition: all 0.3s;
+}
+.cid-symoMzD42U .card .img-wrapper {
   overflow: hidden;
 }
-.cid-sy93X3b4gT a:after {
-  position: absolute;
-  margin-top: 5px;
-  background-color: currentColor;
-  display: block;
-  content: "";
-  height: 2px;
-  width: 100%;
+.cid-symoMzD42U .card:hover {
+  transform: translateY(-10px);
+  cursor: pointer;
 }
-.cid-sy93X3b4gT a::before {
-  position: absolute;
-  margin-top: 5px;
-  background-color: currentColor;
-  display: block;
-  content: "";
-  height: 2px;
-  width: 0%;
-  bottom: 9px;
+.cid-symoMzD42U .card:hover .card-wrapper {
+  background: linear-gradient(to left, #0062a3, #0062a3);
+  color: #ffffff !important;
 }
-.cid-sy93X3b4gT a:hover:after,
-.cid-sy93X3b4gT a:focus:after {
-  -webkit-animation-duration: 1s;
-  animation-duration: 1s;
-  -webkit-animation-name: slidein;
-  animation-name: slidein;
-}
-.cid-sy93X3b4gT a:hover:before,
-.cid-sy93X3b4gT a:focus:before {
-  -webkit-animation-duration: 0.8s;
-  animation-duration: 0.8s;
-  -webkit-animation-delay: 0.5s;
-  animation-delay: 0.5s;
-  -webkit-animation-name: slideout;
-  animation-name: slideout;
-}
-.cid-sy93X3b4gT .right {
-  padding: 0 !important;
-}
-.cid-sy93X3b4gT .left {
-  z-index: 100;
-}
-.cid-sy93X3b4gT a.text-info:hover,
-.cid-sy93X3b4gT a.text-info:focus {
-  color: #fb7522 !important;
+.cid-symoMzD42U .card:hover .card-wrapper .mbr-section-text {
+  color: #ffffff !important;
 }

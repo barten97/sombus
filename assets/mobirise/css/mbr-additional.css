@@ -993,7 +993,7 @@ a {
     align-items: center;
   }
   .cid-szdcsBwCOj .navbar:not(.navbar-short) .navbar-collapse {
-    max-height: calc(100vh - 4rem - 4.5rem);
+    max-height: calc(100vh - 6.6rem - 4.5rem);
   }
   .cid-szdcsBwCOj .navbar.navbar-toggleable-sm .navbar-collapse .navbar-nav .nav-item {
     -webkit-align-self: initial;

@@ -826,8 +826,8 @@ a {
   display: flex;
   padding: 0 2rem;
   position: relative;
-  -webkit-justify-content: flex-end;
-  justify-content: flex-end;
+  -webkit-justify-content: center;
+  justify-content: center;
 }
 .cid-szdcsBwCOj .navbar-dropdown.bg-color.transparent.opened {
   background: #ffffff;
@@ -1013,8 +1013,8 @@ a {
     display: none;
   }
   .cid-szdcsBwCOj .navbar-collapse {
-    -webkit-justify-content: flex-end;
-    justify-content: flex-end;
+    -webkit-justify-content: center;
+    justify-content: center;
   }
 }
 .cid-szdcsBwCOj .navbar-short .menu-content-top {
@@ -1720,7 +1720,7 @@ a {
 .cid-syUOuBirHw {
   padding-top: 75px;
   padding-bottom: 75px;
-  background-color: #111111;
+  background-color: #000000;
 }
 .cid-syUOuBirHw .card-box {
   padding: 0 1rem;

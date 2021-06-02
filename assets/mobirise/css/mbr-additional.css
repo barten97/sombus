@@ -805,7 +805,7 @@ a {
 }
 .cid-szdcsBwCOj .dropdown-menu {
   border: 0px solid lightgray;
-  background: #ffcc2d !important;
+  background: #111111 !important;
 }
 .cid-szdcsBwCOj .menu-content-top {
   max-width: 1200px;
@@ -822,7 +822,7 @@ a {
 .cid-szdcsBwCOj .menu-bottom {
   margin: auto;
   width: 100%;
-  background: #ffcc2d;
+  background: #111111;
   display: flex;
   padding: 0 2rem;
   position: relative;
@@ -1431,7 +1431,7 @@ a {
 }
 .cid-szdcsBwCOj .dropdown-item.active,
 .cid-szdcsBwCOj .dropdown-item:active {
-  background: #ffcc2d;
+  background: #111111;
   color: initial;
 }
 .cid-symnWbZblc {

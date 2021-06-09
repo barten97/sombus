@@ -3785,7 +3785,7 @@ a {
   background-image: url("../../../assets/images/telecom-solutions.jpeg");
 }
 .cid-szLTMc3quJ H1 {
-  color: #0081d7;
+  color: #ffffff;
 }
 .cid-szLTMc3quJ h1 {
   background: linear-gradient(to left, #0062a3, currentColor);
@@ -3795,6 +3795,9 @@ a {
 .cid-szLTMc3quJ .mbr-text,
 .cid-szLTMc3quJ .mbr-section-btn {
   color: #999999;
+}
+.cid-szLTMc3quJ H2 {
+  color: #0081d7;
 }
 .cid-szLTMcx07F {
   padding-top: 3rem;

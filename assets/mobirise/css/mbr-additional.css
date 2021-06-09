@@ -4835,7 +4835,7 @@ a {
 }
 .cid-szM9U15QGb .mbr-text,
 .cid-szM9U15QGb .mbr-section-btn {
-  color: #999999;
+  color: #f3f3f3;
 }
 .cid-szLV4gUs06 {
   padding-top: 3rem;
@@ -5036,7 +5036,7 @@ a {
   content: "";
 }
 .cid-szM5OhxI2L .mbr-section-text {
-  color: #999999;
+  color: #ffffff;
 }
 .cid-szM5OhxI2L .card {
   z-index: 1;
@@ -5089,11 +5089,6 @@ a {
 .cid-szM7EYCTIW .google-map {
   width: 100%;
   height: 30rem;
-  -webkit-filter: grayscale(100%);
-  -moz-filter: grayscale(100%);
-  -ms-filter: grayscale(100%);
-  -o-filter: grayscale(100%);
-  filter: gray;
 }
 .cid-szM7EYCTIW .google-map iframe {
   width: inherit;

@@ -3827,6 +3827,22 @@ a {
 .cid-szLTMcx07F .mbr-section-subtitle {
   text-align: center;
 }
+.cid-szLTMdQVn0 {
+  background: #000000;
+  padding-top: 45px;
+  padding-bottom: 0px;
+}
+.cid-szLTMdQVn0 .image-block {
+  margin: auto;
+}
+.cid-szLTMdQVn0 .image-block img {
+  width: 100%;
+}
+@media (max-width: 767px) {
+  .cid-szLTMdQVn0 .image-block {
+    width: 100% !important;
+  }
+}
 .cid-szLVAJwRjG {
   padding-top: 5rem;
   padding-bottom: 5rem;
@@ -3885,123 +3901,6 @@ a {
 }
 .cid-szLVAJwRjG .mbr-section-title {
   color: #ffffff;
-}
-.cid-szLTMdQVn0 {
-  background: #000000;
-  padding-top: 0px;
-  padding-bottom: 0px;
-}
-.cid-szLTMdQVn0 .image-block {
-  margin: auto;
-}
-.cid-szLTMdQVn0 .image-block img {
-  width: 100%;
-}
-@media (max-width: 767px) {
-  .cid-szLTMdQVn0 .image-block {
-    width: 100% !important;
-  }
-}
-.cid-szLTMe8aCe {
-  padding-top: 75px;
-  padding-bottom: 75px;
-  background-color: #000000;
-}
-.cid-szLTMe8aCe .card-box {
-  padding: 0 1rem;
-  position: relative;
-  z-index: 2;
-}
-.cid-szLTMe8aCe .card-img {
-  padding-bottom: 1rem;
-}
-.cid-szLTMe8aCe .card {
-  cursor: pointer;
-  transition: all 0.3s;
-}
-.cid-szLTMe8aCe .card:hover {
-  transform: translateY(-10px);
-}
-.cid-szLTMe8aCe .mbr-text,
-.cid-szLTMe8aCe .card-title {
-  opacity: 0;
-}
-.cid-szLTMe8aCe .card-wrapper {
-  display: flex;
-  justify-content: center;
-  padding: 1rem;
-  background-position: center;
-  background-size: cover;
-  padding-top: 15rem;
-  align-items: center;
-  perspective: 300px;
-  height: 100%;
-}
-.cid-szLTMe8aCe .card-wrapper:after {
-  position: absolute;
-  content: "";
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: black;
-  opacity: 0.2;
-  z-index: 1;
-}
-@media (min-width: 992px) {
-  .cid-szLTMe8aCe .card:hover .card-wrapper:after {
-    opacity: 0.8;
-    background: linear-gradient(to left, #0062a3, #0062a3);
-  }
-  .cid-szLTMe8aCe .card:hover .mbr-text,
-  .cid-szLTMe8aCe .card:hover .card-title {
-    opacity: 1;
-  }
-}
-@media (max-width: 992px) {
-  .cid-szLTMe8aCe .card {
-    padding-bottom: 1rem !important;
-  }
-  .cid-szLTMe8aCe .card .mbr-text,
-  .cid-szLTMe8aCe .card .card-title {
-    opacity: 1;
-  }
-  .cid-szLTMe8aCe .card-wrapper:after {
-    opacity: 0.7;
-    background: linear-gradient(to left, #0062a3, #0062a3);
-  }
-}
-.cid-szLTMe8aCe .row {
-  justify-content: center;
-}
-.cid-szLTMe8aCe .card-title {
-  border-bottom: 1px solid #999999;
-}
-.cid-szLTMe8aCe .card1 {
-  background-image: url("../../../assets/images/mbr-1.jpg");
-}
-.cid-szLTMe8aCe .card2 {
-  background-image: url("../../../assets/images/mbr-4.jpg");
-}
-.cid-szLTMe8aCe .card3 {
-  background-image: url("../../../assets/images/direct-business-dealer.png");
-}
-.cid-szLTMe8aCe .link,
-.cid-szLTMe8aCe .card-box {
-  color: #ffffff;
-}
-.cid-szLTMe8aCe .mbr-text,
-.cid-szLTMe8aCe .link-wrap {
-  text-align: center;
-}
-.cid-szLTMe8aCe .main-subtitle {
-  color: #ffffff;
-}
-.cid-szLTMe8aCe .mbr-section-subtitle {
-  color: #999999;
-}
-.cid-szLTMe8aCe .mbr-section-text {
-  color: #999999;
 }
 .cid-szLTMf5iO3 {
   padding-top: 45px;
